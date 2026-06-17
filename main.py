@@ -4,7 +4,7 @@ from twilio.rest import Client
 
 import requests
 
-# print(os.environ)
+
 base_url = "https://api.openweathermap.org/"
 five_days_Forecast_endpoint = "data/2.5/forecast"
 parameters = {
